@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.direita{
+    width: 60%;
+    height: 100vh;
+    color: rgb(2, 97, 0);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.esquerda{
+    width: 40%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-color: #58af9C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.esquerda p{
+    width: 50%;
+    
+}
+
+.esquerda h1{
+    font-size: 54px;
+}
+
+.esquerda button{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    color: rgb(255, 255, 255);
+    background-color: #58af9c;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.direita .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: column;
+}
+
+.direita .card .meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direita .card h1{
+    font-size: 54px;
+    color: #58af9c;
+}
+
+.direita .card p{
+    font-size: 24px;
+
+}
+
+.direita .meio input{
+    width: 450px;
+    height: 50px;
+    border: none;
+    background-color: #efefef;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.direita .fim button{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    color: rgb(244, 244, 244);
+    background-color: #58af9C;
+    border: 1px solid #58af9C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.direita .meio input:focus{
+    border: 1px solid #58af9C;
+    transition: all ease 300ms;
+}
+
+.direita .fim button:hover{
+    border: 1px solid #58af9C;
+    color: #58af9C;
+    background: none;
+    transition: all ease 600ms;
+
+}
+
+.esquerda button:hover{
+    border: 1px solid #58af9c;
+    color: #58af9c;
+    background-color: #f7f7f7;
+    transition: all ease 600ms;
+
+}
+
+.direita .fim button:active{
+    border: 1px solid #58af9C;
+    color: #9b9b9b;
+    transition: all ease 300ms;
+}
+.esquerda button:active{
+    border: 1px solid #58af9C;
+    color: #9b9b9b;
+    transition: all ease 300ms;
+}

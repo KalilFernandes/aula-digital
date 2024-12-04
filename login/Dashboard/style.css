@@ -16,7 +16,7 @@ body {
     height: 10%;
 }
 .container .topo .barra-pesquisa {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 600px;
     border: 1px solid #cecece;
     padding: 5px 10px;
@@ -206,3 +206,73 @@ body {
     background-color: #e4fffa;
     color: #00ffe5;
 }
+  .container .content .main-content .content-tabela{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .container .content .main-content .content-tabela table{
+    width: 100%;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    background-color: white;
+    border-collapse: collapse;
+    overflow: hidden;
+  }
+
+    .container .content .main-content .content-tabela table thead{
+        background-color: #ababab;
+        color: #6e6e6e;
+        height: 30px;
+        font-size: 12px;
+    }
+    .container .content .main-content .content-tabela table tbody{
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .container .content .main-content .content-tabela table tbody{
+        font-size: 12px;
+        color: #5a5a5a;
+    }
+
+    .container .content .main-content .content-tabela table tbody tr{
+        border: 1px solid #949494;
+    }
+    .container .content .main-content .content-tabela table tbody tr td .cliente{
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .container .content .main-content .content-tabela table tbody tr td .status{
+        width: 60px;
+        background-color: #bbffc5;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    #aprovado{
+        background-color: #bbffc5;
+        color: #009b17;
+       
+    }
+
+    #negado{
+        background-color: #ffc4c4;
+        color: #a20000;
+    }
+
+    #pendente{
+        background-color: #efffc3;
+        color: #749a00;
+    }
+

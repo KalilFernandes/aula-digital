@@ -129,3 +129,19 @@ body{
     color: #9b9b9b;
     transition: all ease 300ms;
 }
+
+@media (max-width: 640px) {
+    .container .esquerda{
+        display: none;
+    }
+    .container .direita {
+        width: 100%;
+    }
+    .container .direita .card .meio input{
+        width: 90%;
+    }
+    .container .direita .card .topo h1{
+        font-size: 50px;
+        
+    }
+}
